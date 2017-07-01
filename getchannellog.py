@@ -2,7 +2,7 @@ import slackclient
 import os
 import json
 
-key = os.getenv('SLACK_PEAK')
+key = os.getenv('SLACK_KEY')
 sc = slackclient.SlackClient(key)
 userlist = {} # ul is just a name for userlist
 channellist = {}#cl is just a name for channellist

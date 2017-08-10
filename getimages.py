@@ -3,7 +3,7 @@ import os
 import json
 import urllib.request
 
-key = os.getenv('SLACK_KEY_AUTH')
+key = os.getenv('SLACK_KEY')
 sc = slackclient.SlackClient(key)
 
 
